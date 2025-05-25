@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # Load marks from q-cercel-python.json
-file_path = os.path.join(os.path.dirname(__file__), '..', 'q-cercel-python.json')
+file_path = os.path.join(os.path.dirname(__file__), 'q-cercel-python.json')
 with open(file_path, 'r') as f:
     student_data = json.load(f)
 
